@@ -2,7 +2,7 @@
     //creiamo le variabili 
     $txt = $_GET["text"];
     $word = $_GET["word"];
-    $txt_censored = str_replace("$word", "***", "$txt",);
+    $txt_censored = str_ireplace("$word", "***", "$txt",);
 ?>
 <!DOCTYPE html>
 <html lang="en">
